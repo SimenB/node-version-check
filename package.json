@@ -1,0 +1,31 @@
+{
+  "name": "node-version-check",
+  "version": "0.0.0",
+  "description": "Check if the version of Node is greater than or equal to some version",
+  "main": "index.js",
+  "bin": {
+    "node-version-gte-4": "gte4.js",
+    "node-version-lt-4": "lt4.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postpublish": "git push --follow-tags"
+  },
+  "repository": "SimenB/node-version-check",
+  "keywords": [
+    "node",
+    "version",
+    "runtime"
+  ],
+  "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simenb/node-version-check/issues"
+  },
+  "homepage": "https://github.com/simenb/node-version-check#readme",
+  "dependencies": {
+    "semver": "^5.2.0"
+  },
+  "devDependencies": {
+  }
+}
