@@ -4,4 +4,4 @@
 
 var check = require('./index');
 
-process.exit(check.gte('4.0.0') ? 0 : 1);
+process.exit(check.gte(4) ? 0 : 1);
