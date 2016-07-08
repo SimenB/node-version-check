@@ -1,6 +1,6 @@
 {
   "name": "node-version-check",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Check if the version of Node is greater than or equal to some version",
   "main": "index.js",
   "bin": {
