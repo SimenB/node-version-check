@@ -25,6 +25,20 @@ A bin with `lt` is also included to avoid having to handle the OR case.
 }
 ```
 
+### Satisfies
+
+The module also exposes a binary called `node-version-satisfies`, which takes a string to check against as an
+argument.
+
+```json
+"scripts": {
+  "lint": "node-version-satisfies '>=4' && eslint . || node-version-satisfies '<4'"
+}
+```
+
+It uses `node-semver`'s `satisfies` under the hood, this allows you to check against any arbitrary version, such as
+exact (`node-version-satisfies '4.0.0'`) or minor (`node-version-satisfies '^4.0.0'`) etc..
+
 [npm-url]: https://npmjs.org/package/node-version-check
 [npm-image]: https://img.shields.io/npm/v/node-version-check.svg
 [david-url]: https://david-dm.org/SimenB/node-version-check

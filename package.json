@@ -5,7 +5,8 @@
   "main": "index.js",
   "bin": {
     "node-version-gte-4": "gte4.js",
-    "node-version-lt-4": "lt4.js"
+    "node-version-lt-4": "lt4.js",
+    "node-version-satisfies": "satisfies.js"
   },
   "scripts": {
     "pretest": "eslint .",
