@@ -3,6 +3,7 @@
 
 [![NPM Version][npm-image]][npm-url]
 [![Dependency Status][david-image]][david-url]
+[![Build status][travis-image]][travis-url]
 
 ## Usage
 
@@ -43,5 +44,7 @@ A bin with `lt` is also included to avoid having to handle the OR case.
 
 [npm-url]: https://npmjs.org/package/node-version-check
 [npm-image]: https://img.shields.io/npm/v/node-version-check.svg
+[travis-url]: https://travis-ci.org/SimenB/node-version-check
+[travis-image]: https://img.shields.io/travis/SimenB/node-version-check/master.svg?maxAge=2592000
 [david-url]: https://david-dm.org/SimenB/node-version-check
 [david-image]: https://img.shields.io/david/SimenB/node-version-check.svg
