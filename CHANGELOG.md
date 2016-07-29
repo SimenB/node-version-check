@@ -5,6 +5,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 Latest version of this document will always be available on https://github.com/SimenB/node-version-check/releases
 
 ## [Unreleased]
+Nothing!
+
+## [2.1.0] - 2016-07-29
 ### Added
 - `node-version-gte-6` & `node-version-lt-6` binaries
 - A `LICENSE` file
@@ -41,7 +44,8 @@ Latest version of this document will always be available on https://github.com/S
 Initial release
 
 
-[Unreleased]: https://github.com/SimenB/node-version-check/compare/v2.0.2...HEAD
+[Unreleased]: https://github.com/SimenB/node-version-check/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/SimenB/node-version-check/compare/v2.0.2...v2.1.0
 [2.0.2]: https://github.com/SimenB/node-version-check/compare/v2.0.1...v2.0.2
 [2.0.1]: https://github.com/SimenB/node-version-check/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/SimenB/node-version-check/compare/v1.1.0...v2.0.0
