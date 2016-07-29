@@ -10,6 +10,7 @@ Latest version of this document will always be available on https://github.com/S
 
 ### Changed
 - Add actual tests for 100% test coverage
+- Only include necessary files in published package
 
 ### Internal
 - Test on Windows 

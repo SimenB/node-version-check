@@ -8,6 +8,12 @@
     "node-version-gte-4": "gte4.js",
     "node-version-lt-4": "lt4.js"
   },
+  "files": [
+    "index.js",
+    "satisfies.js",
+    "gte4.js",
+    "lt4.js"
+  ],
   "scripts": {
     "clean": "del coverage/ .nyc_output/",
     "cover": "nyc --all ava",
