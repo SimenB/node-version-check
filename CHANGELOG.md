@@ -2,9 +2,14 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+Latest version of this document will always be available on https://github.com/SimenB/node-version-check/releases
+
 ## [Unreleased]
 ### Changed
 - Add actual tests for 100% test coverage
+
+### Internal
+- Test on Windows 
 
 ## [2.0.2] - 2016-07-08
 ### Added
@@ -19,13 +24,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Rename `node-version-satisfies` to `node-version-check` to match package name
 
 ## [1.1.0] - 2016-07-04
-
 #### Added
 - Add `node-version-satisfies` binary to check against custom versions
 (fixes https://github.com/SimenB/node-version-check/issues/1)
 
 ## [1.0.1] - 2016-07-04
-
 #### Internal
 - Simplify invocation
 

@@ -2,9 +2,13 @@
 > Check if the runtime Node version satisfies some version
 
 [![NPM Version][npm-image]][npm-url]
-[![Dependency Status][david-image]][david-url]
-[![Build status][travis-image]][travis-url]
+[![Linux & Mac Build Status][travis-image]][travis-url]
+[![Windows Build Status][appveyor-image]][appveyor-url]
 [![Code Coverage][codecov-image]][codecov-url]
+
+
+[![Dependency Status][david-image]][david-url]
+[![Dev Dependency Status][david-dev-image]][david-dev-url]
 
 ## Usage
 
@@ -47,7 +51,11 @@ A bin with `lt` is also included to avoid having to handle the OR case.
 [npm-image]: https://img.shields.io/npm/v/node-version-check.svg
 [travis-url]: https://travis-ci.org/SimenB/node-version-check
 [travis-image]: https://img.shields.io/travis/SimenB/node-version-check/master.svg?maxAge=2592000
+[appveyor-url]: https://ci.appveyor.com/project/SimenB/node-version-check
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/leljtwqeg3x55v22/branch/master?svg=true
 [codecov-url]: https://codecov.io/gh/SimenB/node-version-check
 [codecov-image]: https://img.shields.io/codecov/c/github/SimenB/node-version-check/master.svg
 [david-url]: https://david-dm.org/SimenB/node-version-check
 [david-image]: https://img.shields.io/david/SimenB/node-version-check.svg
+[david-dev-url]: https://david-dm.org/SimenB/node-version-check?type=dev
+[david-dev-image]: https://img.shields.io/david/dev/SimenB/node-version-check.svg
