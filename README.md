@@ -47,6 +47,8 @@ A bin with `lt` is also included to avoid having to handle the OR case.
 }
 ```
 
+There are also binaries for `node@>=6` and `node@<6` included.
+
 [npm-url]: https://npmjs.org/package/node-version-check
 [npm-image]: https://img.shields.io/npm/v/node-version-check.svg
 [travis-url]: https://travis-ci.org/SimenB/node-version-check

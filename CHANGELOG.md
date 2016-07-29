@@ -6,6 +6,7 @@ Latest version of this document will always be available on https://github.com/S
 
 ## [Unreleased]
 ### Added
+- `node-version-gte-6` & `node-version-lt-6` binaries
 - A `LICENSE` file
 
 ### Changed
@@ -13,7 +14,7 @@ Latest version of this document will always be available on https://github.com/S
 - Only include necessary files in published package
 
 ### Internal
-- Test on Windows 
+- Test on Windows
 
 ## [2.0.2] - 2016-07-08
 ### Added

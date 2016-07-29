@@ -6,13 +6,17 @@
   "bin": {
     "node-version-check": "satisfies.js",
     "node-version-gte-4": "gte4.js",
-    "node-version-lt-4": "lt4.js"
+    "node-version-lt-4": "lt4.js",
+    "node-version-gte-6": "gte6.js",
+    "node-version-lt-6": "lt6.js"
   },
   "files": [
     "index.js",
     "satisfies.js",
     "gte4.js",
-    "lt4.js"
+    "lt4.js",
+    "gte6.js",
+    "lt6.js"
   ],
   "scripts": {
     "clean": "del coverage/ .nyc_output/",
