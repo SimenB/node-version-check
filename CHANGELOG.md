@@ -5,6 +5,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 Latest version of this document will always be available on https://github.com/SimenB/node-version-check/releases
 
 ## [Unreleased]
+### Added
+- A `LICENSE` file
+
 ### Changed
 - Add actual tests for 100% test coverage
 
