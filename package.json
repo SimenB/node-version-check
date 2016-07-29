@@ -9,9 +9,15 @@
     "node-version-lt-4": "lt4.js"
   },
   "scripts": {
-    "pretest": "node gte4.js && eslint . || node lt4.js",
+    "clean": "del coverage/ .nyc_output/",
+    "cover": "nyc --all ava",
+    "lint": "node gte4.js && eslint . || node lt4.js",
+    "pretest": "npm run lint",
     "test": "ava",
-    "postpublish": "git push --follow-tags"
+    "postpublish": "git push --follow-tags",
+    "pretravis": "npm run lint && npm run clean",
+    "travis": "nyc --check-coverage --lines 100 --functions 100 --branches 100 --statements 100 ava",
+    "posttravis": "nyc report --reporter=lcov"
   },
   "repository": "SimenB/node-version-check",
   "keywords": [
@@ -30,10 +36,13 @@
   },
   "devDependencies": {
     "ava": "^0.15.2",
+    "del-cli": "^0.2.0",
     "eslint": "^3.1.1",
     "eslint-config-airbnb-base": "^5.0.0",
     "eslint-config-simenb-ava": "^1.1.1",
     "eslint-config-simenb-base": "^2.0.0",
-    "eslint-plugin-import": "^1.11.1"
+    "eslint-plugin-import": "^1.11.1",
+    "nyc": "^7.1.0",
+    "sinon": "^1.17.5"
   }
 }
