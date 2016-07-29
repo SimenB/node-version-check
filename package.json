@@ -9,8 +9,8 @@
     "node-version-lt-4": "lt4.js"
   },
   "scripts": {
-    "pretest": "eslint .",
-    "test": "echo \"Error: no test specified\"",
+    "pretest": "node gte4.js && eslint . || node lt4.js",
+    "test": "ava",
     "postpublish": "git push --follow-tags"
   },
   "repository": "SimenB/node-version-check",
@@ -29,8 +29,10 @@
     "semver": "^5.2.0"
   },
   "devDependencies": {
+    "ava": "^0.15.2",
     "eslint": "^3.1.1",
     "eslint-config-airbnb-base": "^5.0.0",
+    "eslint-config-simenb-ava": "^1.1.1",
     "eslint-config-simenb-base": "^2.0.0",
     "eslint-plugin-import": "^1.11.1"
   }

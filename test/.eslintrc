@@ -1,0 +1,6 @@
+{
+  "extends": ["simenb-base", "simenb-ava"],
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+  }
+}
