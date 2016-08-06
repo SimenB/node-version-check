@@ -45,7 +45,7 @@
     "semver": "^5.2.0"
   },
   "devDependencies": {
-    "ava": "^0.15.2",
+    "ava": "^0.16.0",
     "del-cli": "^0.2.0",
     "eslint": "^3.1.1",
     "eslint-config-simenb-ava": "^1.1.1",
