@@ -19,17 +19,17 @@ test.after.always(() => {
 
 test('satisfies', t => {
   t.true(satisfies('<6'));
-  t.false(satisfies('<5'));
-  t.false(satisfies('>5'));
+  t.true(!satisfies('<5'));
+  t.true(!satisfies('>5'));
   t.true(satisfies('=5'));
 });
 
 test('gte', t => {
-  t.false(gte(6));
+  t.true(!gte(6));
   t.true(gte(5));
 });
 
 test('lt', t => {
   t.true(lt(6));
-  t.false(lt(5));
+  t.true(!lt(5));
 });
