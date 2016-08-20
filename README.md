@@ -21,7 +21,7 @@ Example usage is for example to not run `eslint>=3` on version of node less than
 
 ```json
 "scripts": {
-  "lint": "node-version-check '>=4' && eslint . || node-version-check '<4'"
+  "lint": "node-version-check \">=4\" && eslint . || node-version-check \"<4\""
 }
 ```
 
