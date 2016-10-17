@@ -48,7 +48,7 @@
     "ava": "^0.16.0",
     "del-cli": "^0.2.0",
     "eslint": "^3.2.2",
-    "eslint-config-simenb-ava": "^3.0.0",
+    "eslint-config-simenb-ava": "^5.0.1",
     "eslint-config-simenb-base": "^5.0.0",
     "nyc": "^8.1.0",
     "sinon": "^1.17.5"
