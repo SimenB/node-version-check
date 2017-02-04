@@ -6,7 +6,7 @@
 [![Windows Build Status][appveyor-image]][appveyor-url]
 [![Code Coverage][codecov-image]][codecov-url]
 
-
+[![Greenkeeper badge][greenkeeper-image]](greenkeeper-url)
 [![Dependency Status][david-image]][david-url]
 [![Dev Dependency Status][david-dev-image]][david-dev-url]
 
@@ -61,3 +61,5 @@ There are also binaries for `node@>=6` and `node@<6` included.
 [david-image]: https://img.shields.io/david/SimenB/node-version-check.svg
 [david-dev-url]: https://david-dm.org/SimenB/node-version-check?type=dev
 [david-dev-image]: https://img.shields.io/david/dev/SimenB/node-version-check.svg
+[greenkeeper-url]: https://greenkeeper.io/
+[greenkeeper-image]: https://badges.greenkeeper.io/SimenB/node-version-check.svg
