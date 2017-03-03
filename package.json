@@ -49,8 +49,9 @@
     "del-cli": "^0.2.0",
     "eslint": "^3.8.0",
     "eslint-config-simenb-ava": "^6.0.0",
-    "eslint-config-simenb-base": "^10.0.0",
+    "eslint-config-simenb-base": "^11.0.1",
     "nyc": "^10.0.0",
+    "prettier": "^0.21.0",
     "sinon": "^1.17.6"
   }
 }
