@@ -1436,14 +1436,14 @@ eslint-config-prettier@^1.4.1:
     get-stdin "^5.0.1"
 
 eslint-config-simenb-ava@^6.0.0:
-  version "6.0.5"
-  resolved "https://registry.yarnpkg.com/eslint-config-simenb-ava/-/eslint-config-simenb-ava-6.0.5.tgz#4eea76664c505e7f28cef8d3694653b02d973b7e"
+  version "6.0.7"
+  resolved "https://registry.yarnpkg.com/eslint-config-simenb-ava/-/eslint-config-simenb-ava-6.0.7.tgz#44189728c972dc8791695408becd7513cb48b817"
   dependencies:
     eslint-plugin-ava "^4.2.0"
 
 eslint-config-simenb-base@^12.0.0:
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-simenb-base/-/eslint-config-simenb-base-12.0.0.tgz#8356bc9579c0957ff118127c32ba561abf81d00a"
+  version "12.1.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-simenb-base/-/eslint-config-simenb-base-12.1.2.tgz#fc5573db3af5d23e625d8beb60507c87848c15ee"
   dependencies:
     eslint-config-airbnb-base "^11.1.0"
     eslint-config-prettier "^1.4.1"

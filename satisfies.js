@@ -7,9 +7,8 @@ var check = require('./index');
 var args = process.argv.slice(2);
 
 if (args.length !== 1) {
-  console.error('You should only pass a single argument to "node-version-satisfies"'); // eslint-disable-line no-console
+  console.error('You should only pass a single argument to "node-version-satisfies"');
   process.exit(1);
-  return;
+} else {
+  process.exit(check.satisfies(args[0]) ? 0 : 1);
 }
-
-process.exit(check.satisfies(args[0]) ? 0 : 1);
