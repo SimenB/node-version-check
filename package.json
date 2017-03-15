@@ -52,6 +52,6 @@
     "eslint-config-simenb-base": "^12.0.0",
     "nyc": "^10.0.0",
     "prettier": "^0.22.0",
-    "sinon": "^1.17.6"
+    "sinon": "^2.0.0"
   }
 }
