@@ -53,5 +53,10 @@
     "nyc": "^10.0.0",
     "prettier": "^0.22.0",
     "sinon": "^2.0.0"
+  },
+  "greenkeeper": {
+    "ignore": [
+      "ava"
+    ]
   }
 }
