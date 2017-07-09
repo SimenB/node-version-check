@@ -8,7 +8,9 @@
     "node-version-gte-4": "gte4.js",
     "node-version-lt-4": "lt4.js",
     "node-version-gte-6": "gte6.js",
-    "node-version-lt-6": "lt6.js"
+    "node-version-lt-6": "lt6.js",
+    "node-version-gte-8": "gte8.js",
+    "node-version-lt-8": "lt8.js"
   },
   "files": [
     "index.js",
@@ -16,7 +18,9 @@
     "gte4.js",
     "lt4.js",
     "gte6.js",
-    "lt6.js"
+    "lt6.js",
+    "gte8.js",
+    "lt8.js"
   ],
   "scripts": {
     "clean": "del coverage/ .nyc_output/",
@@ -26,7 +30,7 @@
     "test": "ava",
     "postpublish": "git push --follow-tags",
     "pretravis": "npm run lint && npm run clean",
-    "travis": "nyc --check-coverage --lines 100 --functions 100 --branches 100 --statements 100 ava",
+    "travis": "nyc --all --check-coverage --lines 100 --functions 100 --branches 100 --statements 100 ava",
     "posttravis": "nyc report --reporter=lcov"
   },
   "repository": "SimenB/node-version-check",
