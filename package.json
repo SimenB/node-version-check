@@ -56,7 +56,8 @@
   },
   "greenkeeper": {
     "ignore": [
-      "ava"
+      "ava",
+      "nyc"
     ]
   }
 }
