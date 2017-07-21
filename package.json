@@ -51,7 +51,7 @@
   "devDependencies": {
     "ava": "^0.17.0",
     "del-cli": "^0.2.0",
-    "eslint": "^3.8.0",
+    "eslint": "^4.3.0",
     "eslint-config-simenb-ava": "^6.0.0",
     "eslint-config-simenb-base": "^12.0.0",
     "nyc": "^10.0.0",
