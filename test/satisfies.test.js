@@ -68,7 +68,11 @@ test('extra args', t => {
   t.true(process.exit.calledOnce);
   t.true(process.exit.calledWithExactly(1));
   t.true(console.error.calledOnce);
-  t.true(console.error.calledWithExactly('You should only pass a single argument to "node-version-satisfies"'));
+  t.true(
+    console.error.calledWithExactly(
+      'You should only pass a single argument to "node-version-satisfies"'
+    )
+  );
 });
 
 test('missing args', t => {
@@ -81,5 +85,9 @@ test('missing args', t => {
   t.true(process.exit.calledOnce);
   t.true(process.exit.calledWithExactly(1));
   t.true(console.error.calledOnce);
-  t.true(console.error.calledWithExactly('You should only pass a single argument to "node-version-satisfies"'));
+  t.true(
+    console.error.calledWithExactly(
+      'You should only pass a single argument to "node-version-satisfies"'
+    )
+  );
 });
