@@ -55,7 +55,7 @@
     "eslint-config-simenb-ava": "^6.0.0",
     "eslint-config-simenb-base": "^14.0.0",
     "nyc": "^10.0.0",
-    "prettier": "^1.0.2",
+    "prettier": "^1.18.1",
     "sinon": "^4.0.0"
   },
   "greenkeeper": {
