@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "ava": "^0.17.0",
-    "del-cli": "^0.2.0",
+    "del-cli": "^3.0.1",
     "eslint": "^4.3.0",
     "eslint-config-simenb-ava": "^6.0.0",
     "eslint-config-simenb-base": "^14.0.0",
